@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.counter{
+    font-size: 40px;
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 9px;
+    background-color: gray;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 9px;
+    background-color: lime;
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+}
